@@ -1,19 +1,9 @@
-// code in built in functions // reverse string
-
-// function solution(str) {
-// let result = str.split("").reverse().join("")
-// return result }
+//.join(" ") spcae in " " , space between every word 
 
 
-
-// code in loop // reverse string
-
-function solution(str) {
-  let result = "";
-  for (i = 0; i < str.length; i++) {
-    result += str[str.length - i - 1];
-  }
-  return result;
+function rev (name)
+{
+  let namee = name.split("").reverse("").join(" ")
+  return namee 
 }
-
-
+document.write(rev(` sardar`)) //print on page instead of console
